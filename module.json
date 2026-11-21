@@ -1,0 +1,41 @@
+{
+  "id": "sangue-escuro-autoxmacros",
+  "title": "Sangue Escuro - AutoxMacros",
+  "description": "Gatilhos, condições e ações por blocos em português, pedidos ao Mestre e histórico de execuções. Auxiliar opcional para todas as expansões.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Yob Warz — Sangue Escuro RPG"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sangue-escuro",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.8.13"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "assets/autoxmacros.css"
+  ],
+  "flags": {
+    "sangue-escuro": {
+      "tipo": "auxiliar"
+    }
+  },
+  "license": "LICENSE",
+  "url": "https://github.com/yobwarz/Dark-Blood-RPG-AutoxMacros",
+  "manifest": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-AutoxMacros/main/module.json",
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-AutoxMacros/v0.1.0/dist/sangue-escuro-autoxmacros.zip"
+}
